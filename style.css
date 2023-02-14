@@ -1,0 +1,22 @@
+body , footer , main{
+    box-sizing: border-box;
+    max-width: 99%;
+}
+
+/* .nav-principal{
+    
+    width: auto;
+    margin-top: 50px;
+} */
+
+a{
+    text-decoration: none;
+}
+
+/* .slider-img1{
+    background-color: aqua;
+    margin-left: 10%;
+    width: 1524px;
+    height: 350px;
+} */
+

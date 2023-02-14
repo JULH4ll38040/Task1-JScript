@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="shortcut icon" href="./Assets/Logo-Amazing-Events.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+             <div class="row">
+                    <div class="col d-flex p-2 bg-warning bg-opacity-10 border border-info rounded" style="margin-left: 10px; margin-right: -5px;">
+                        <div class="col">
+                            <img src="./Assets/LogoAmazingEvents.png" class="col bg-dark" style="margin: 10px; width: 170px;" alt="logo hockey">
+                        </div>
+                            
+                        <div class="col-8">
+                            
+                            <a href="./home.html" class="col p-2 m-2 bg-info bg-opacity-10 border border-info rounded float-sm-start">Home</a>
+                            <a href="./UpCmngEvents.html" class="col p-2 m-2 bg-info bg-opacity-10 border border-info rounded float-sm-start">Upcoming Events</a>
+                            <a href="./contact.html" class="col p-2 m-2 bg-info bg-opacity-10 border border-info rounded float-sm-start">Contact</a>
+                            <a href="./events.html" class="col p-2 m-2 bg-info bg-opacity-10 border border-info rounded float-sm-start">Past Events</a>
+                            <a href="#" class="col p-2 m-2 bg-info bg-opacity-10 border border-info rounded float-sm-start">Details</a>
+                            <a href="./stats.html" class="col p-2 m-2 bg-info bg-opacity-10 border border-info rounded float-sm-start">Stats</a>   
+                            
+                        </div>
+                    </div>       
+            </div>   
+        </div> 
+
+    </header>
+
+    <main>
+
+    <div class="nav-buscador">
+        <!-- <fieldset>
+            <label for=""></label>
+        </fieldset> -->
+    </div>
+
+    <nav class="navbar">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" onclick="location.href='./home.html'" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" onclick="location.href='./UpCmngEvents.html'" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" onclick="location.href='./contact.html'" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" onclick="location.href='./events.html'" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" onclick="location.href='#'" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="active" aria-label="Slide 5"></button>
+              <button type="button" onclick="location.href='./stats.html'" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner" style="align-content:center;">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://wallpapercave.com/wp/oRsLMGi.jpg" style="border: 1px solid grey; margin: 1px 9px ; background-size:auto; width: 1710px; height: 350px;" alt="wall">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Datails</h2>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" style="max-width: 1000px; " onclick="location.href='./UpCmngEvents.html'" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" style="width:100px;" type="button" onclick="location.href='./UpCmngEvents.html'" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </nav>
+
+    <nav class="navcategory">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border: 1px solid white; align-content: flex-end; width: 1715px;margin-left: 7px;">
+            <div class="container-fluid">
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item m-2">
+                    <input type="checkbox" name="Categoria" value="Category">
+                    <span>Category</span>
+                </li>
+                <li class="nav-item m-2">
+                    <input type="checkbox" name="Categoria" value="Category">
+                    <span>Category</span>        
+                </li>
+                <li class="nav-item m-2">
+                    <input type="checkbox" name="Categoria" value="Category">
+                    <span>Category</span>
+                </li>
+                <li class="nav-item m-2">
+                    <input type="checkbox" name="Categoria" value="Category">
+                    <span>Category</span>
+                </li>
+                <li class="nav-item m-2">
+                    <input type="checkbox" name="Categoria" value="Category">
+                    <span>Category</span>
+                </li>
+                
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+      </nav>
+    </nav>
+    
+    <div class="nav-card">
+        <div class="row">
+            <div class="col d-flex m-2" style="align-content:baseline;">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Assets/Cinema.jpg" class="card-img-top" style="padding: 1px;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Titulo de la Carta</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic minus iusto nulla amet, reprehenderit mollitia quam et asperiores accusamus id porro blanditiis ab at fuga laudantium iste molestiae non corporis.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./Assets/Costume_Party.jpg" class="card-img-top" style="padding: 1px; height: 12.5rem;" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Titulo de la Carta</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse doloremque id beatae facilis impedit ut? Ipsam sequi, voluptatibus obcaecati distinctio placeat itaque beatae eos ipsa iusto, sit minus. Ullam?.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem; ">
+                                <img src="./Assets/Food_Fair.jpg" class="card-img-top" style="padding: 1px;" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Titulo de la Carta</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et numquam temporibus ad non quia dolore error tempore earum, porro voluptates natus iusto, eligendi vel nemo quibusdam commodi iste beatae libero.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>    
+    </div>
+
+    </main> 
+
+    <footer>
+        <div class="row">
+            <div class="col d-flex bg-warning bg-opacity-10 border border-info rounded">
+                <div class="col ">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.dmRx9bM-VEHaoNSrfWY2fgAAAA%26pid%3DApi&f=1&ipt=fc9ce6dab6dcfcbb37d83343d65db2b3efbc9d3af11631dafd39a8736d7a0a38&ipo=images" class="rounded-circle" style="width: 45px; margin: 10px 10px;" alt="logo instagram">
+                    <img src="https://img.freepik.com/free-icon/circle-facebook_318-10967.jpg?size=338&ext=jpg" class="rounded-circle" style="width: 45px; margin: 10px 10px;" alt="logo facebook">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.nMiZCUPRnwRkxN7UuGrc1AHaHa%26pid%3DApi&f=1&ipt=08aadc5ccc0ce8bdda1194cea03ada640c1177d33cf727cb7d3ecb9df82fd74e&ipo=images" class="rounded-circle" style="width: 45px; margin: 10px 10px;" alt="logo whatsapp">
+                </div>
+                    
+                    <div class="col-2 d-flex align-self-end ">
+                        <h2>Cohort</h2>
+                    </div>
+                       
+                
+                </div>
+        </div>
+        
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
